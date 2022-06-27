@@ -1,0 +1,27 @@
+.header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    grid-template-rows: 16px;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
