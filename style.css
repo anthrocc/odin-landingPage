@@ -2,7 +2,6 @@
   background-color: #1F2937;
   display: flex;
   justify-content: center;
-  border-bottom: 10px solid red;
 }
 
 .innerHeader {
@@ -12,12 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 512px;
+  gap: 865px;
 }
 
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: 900;
 }
 
 a {
@@ -40,10 +40,63 @@ ul {
 /* First Block CSS */
 
 .firstBlock {
-  text-align: center;
-  padding-top: 32px;
-  padding-bottom: 64px;
-  border-bottom: 10px solid red;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: #1F2937;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px;
+  max-height: 256px;
+}
+
+.left {
+  width: 50%;
+  height: auto;
+  text-align: left;
+  padding-left: 256px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.right {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 256px;
+}
+
+div.right img {
+  width: 500px;
+}
+
+.heroMain {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.heroSec {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 8px 0px 8px 0px;
+}
+
+.heroButton {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-weight: bold;
+  padding: 8px 16px 8px 16px;
+  border: 0;
+  border-radius: 10px;
 }
 
 .firstBlock img {
@@ -56,9 +109,8 @@ ul {
 
 .secondBlock {
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 64px;
-  border-bottom: 10px solid red;
+  padding-top: 64px;
+  padding-bottom: 128px;
 }
 
 .images {
@@ -75,7 +127,7 @@ ul {
   margin-bottom: 32px;
 }
 
-.container {
+.secondContainer {
   display: flex;
   justify-content: center;
   gap: 52px;
@@ -87,11 +139,10 @@ ul {
 
 .thirdBlock {
   background-color: #E5E7EB;
-  padding-top: 32px;
-  padding-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 128px;
   display: flex;
   justify-content: center;
-  border-bottom: 10px solid red;
 }
 
 .innerThird {
@@ -117,9 +168,8 @@ ul {
 .fourthBlock {
   display: flex;
   justify-content: center;
-  border-bottom: 10px solid red;
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 128px;
 }
 
 .modal {
@@ -133,22 +183,17 @@ ul {
   padding: 16px 300px 16px 300px;
 }
 
-.modalContainer {
-  /* display: flex;
-  gap: 16px;
-  padding: 16px 64px 16px 64px;
-  flex-direction: column;
-  align-content: stretch;
-  justify-content: center;
-  align-items: flex-start; */
-}
-
 .signUp {
   padding: 8px 16px;
   border-radius: 8px;
   border: 1px solid #F9FAF8;
   color: #F9FAF8;
   white-space: nowrap;
+}
+
+button.signUp {
+  background-color: #3882F6;
+  font-weight: bold;
 }
 
 .headerModal {
@@ -167,10 +212,6 @@ ul {
 }
 
 .footer {
-  /* position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0; */
   height: 52px;
   display: flex;
   align-items: center;
